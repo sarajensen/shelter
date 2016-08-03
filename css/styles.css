@@ -6,7 +6,7 @@ img {
   float: left;
   padding: 20px;
   margin: 20px;
-  border: 2px solid black;
+  border: 2px solid	#57badb;
   width: 200px;
 }
 
@@ -26,4 +26,12 @@ body {
 
 .heading {
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+marquee {
+  font-size: 24px;
 }
