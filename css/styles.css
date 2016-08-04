@@ -1,5 +1,5 @@
 img {
-  width: 200px;
+  width: 100px;
 }
 
 .column {
@@ -7,7 +7,7 @@ img {
   padding: 20px;
   margin: 20px;
   border: 2px solid	#57badb;
-  width: 200px;
+  width: 100px;
 }
 
 .column p {
@@ -15,7 +15,7 @@ img {
 }
 
 p {
-   font-size: 18px;
+   font-size: 14px;
  }
 
 body {
@@ -32,6 +32,18 @@ h3 {
   text-align: center;
 }
 
-marquee {
-  font-size: 24px;
+/*==============================================================================
+  Media Queries
+  ============================================================================*/
+
+@media screen and (max-width: 768px) {
+  body {
+      background: blue;
+  }
+}
+
+/* Phones to Tablets (does nothing, just an example*/
+
+@media screen and (min-width: 481px) {
+
 }
