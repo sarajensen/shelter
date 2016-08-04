@@ -8,6 +8,7 @@ img {
   margin: 20px;
   border: 2px solid	#57badb;
   width: 100px;
+  color: green;
 }
 
 .column p {
@@ -32,18 +33,38 @@ h3 {
   text-align: center;
 }
 
-/*==============================================================================
-  Media Queries
-  ============================================================================*/
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 935px) {
   body {
-      background: blue;
+      background: ivory;
   }
 }
 
 /* Phones to Tablets (does nothing, just an example*/
 
 @media screen and (min-width: 481px) {
+  .blahblah {
+    width: 60%;
+    float: left;
+  }
+}
 
+/* Tablets to Desktop (does nothing, just an example*/
+
+@media only screen and (min-width: 769px) {
+
+}
+
+/* Print stylesheet (does nothing, just an example */
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 }
